@@ -1,0 +1,154 @@
+/*Main Body Styles*/
+@import url('http://cdnjs.cloudflare.com/ajax/libs/font-awesome/3.0.2/css/font-awesome.min.css');
+
+body{
+background-color:#fff;
+color:#444;
+font-family: proxima-nova, helvetica, sans-serif;
+margin-left:130px;
+overflow-x:hidden;}
+
+a {text-decoration: none;}
+
+
+.main-body{
+float:left;}
+
+/*Styles for Recommendation*/
+	.recommondation-warning{
+		background-color:#e2f5bd;
+		color:#444444;
+		font-size:14px;
+		height:30px;
+		margin: 60px 0 20px 0;
+		padding:10px 10px;
+		font-size:14px;
+		position: relative;
+		width:530px;}
+
+	.recommondation-close{
+		cursor:pointer;
+		font-size: 18px;
+		font-weight: bold;
+		height:22px;
+		position:absolute;
+		right:10px;
+		text-align: center;
+		top:3px;}
+
+/*Styles for Purchasing Steps*/
+
+	.purchasesteps{
+	float:left;
+	width:550px;
+	height:860px;
+	border:1px solid black;}
+
+
+
+		.step{
+		background-color: #ebebeb;
+		border-bottom:1px solid black;
+		float:left;
+		height:75px;
+		width:550px;}
+
+			.step h1{
+			color:#c2c2c2;
+			font-size: 30px;
+			margin: 20px 0 0 15px;}
+
+
+	.first-step{
+	background-color: #363636;
+	margin-bottom: 480px;}
+
+		.first-step h1{
+		color:#94b94c;
+		margin-bottom: 25px;}
+
+		.first-step h1 span{
+		color:white;
+		margin-left: 5px;}
+
+	.pack{
+	height:240px;
+	position: relative;
+	width:550px;}
+
+		.pack h2, .pack h3, .pack h4, .pack h5{
+		color:white;
+		left:345px;
+		position: absolute;}
+
+		.pack h2{
+		font-size: 35px;
+		top:60px;}
+
+		.pack h3{
+		font-size: 24px;
+		top:105px;}
+
+		.pack h4{
+		font-size: 12px;
+		top:140px;}
+
+		.pack h5{
+		font-size:14px;
+		top:162px;}
+
+		.pack a{
+		background-color:#94b94c;
+		-webkit-border-radius:50px;
+	       -moz-border-radius:50px;
+	         -o-border-radius:50px;
+	            border-radius:50px; 
+	    color:white;
+	    height:30px;
+		left:450px;
+		padding:5px;
+		position: absolute;
+		text-align: center;
+		top:60px;
+		width:30px;}
+
+				.pack a:hover{
+				background-color: purple;}
+
+		.pack a i{
+		margin-top: 5px;}
+
+		.first-pack{
+		background: url('firstpack.jpg');
+		margin-bottom: 5px;}
+
+		.second-pack{
+		background: url('secondpack.jpg');}
+
+
+/*Styles for Sidebar*/
+
+	.sidebar{
+	float:right;
+	margin: 60px 100px 0 95px;
+	width:325px;}
+
+		.sidebar h1{
+			font-size: 30px;
+			margin-left: 50px;
+			text-transform: uppercase;}
+
+		.sidebar img{
+		height:140px;
+		margin:30px 0 20px 50px;
+		width:176px;}
+
+		.sidebar h2{
+			font-size: 16px;
+			margin:0 0 60px 65px;}
+
+		.sidebar h3{
+			font-size:16px;
+			margin:40px 0 0 30px;
+			width:240px;}
+

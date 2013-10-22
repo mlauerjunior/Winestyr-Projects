@@ -1,0 +1,99 @@
+/*Main Body Styles*/
+body{
+	background-color:#fff;
+	color:#444;
+	font-family: proxima-nova, helvetica, sans-serif;
+	margin: 0;
+	overflow-x:hidden;}
+
+a{
+	text-decoration: none;}
+
+	.mainbody{
+		background: url('yogawine.jpg') center no-repeat;
+		background-size:cover;
+		box-shadow: 0px 3px 10px #888888;
+		height:800px;
+		width:100%;}
+
+	.body_caption{
+		height:680px;
+		padding:95px 0 0 750px;
+		width:350px;}
+
+	.slogan h1{
+		font-size: 47px;
+		margin-bottom: 25px;
+		text-shadow: 0 3px 3px #fff;
+		text-transform: uppercase;}
+
+
+		ul{
+			font-size: 24px;
+			padding-left:25px;}
+
+		.slogan p{
+			font-size: 16px;
+			margin-left: 5px;}
+
+		p span{
+			font-size: 12px;
+			vertical-align:text-top;}
+
+		.slogan h2{
+			font-size: 24px;
+			font-weight: lighter;
+			margin-left: 5px;}
+
+
+
+	.price_buy{
+		height:120px;
+		margin: 0 0 25px 40px;}
+
+		.price_buy h1{
+			border:2px solid black;
+			-webkit-border-radius:50px;
+				       -moz-border-radius:50px;
+				         -o-border-radius:50px;
+				            border-radius:50px;
+			font-size: 40px;
+			float:left;
+			height:80px;
+			line-height: 65px;
+			text-align: center;
+			width:80px;}
+
+		.price_buy h1 span{
+			font-size:15px;
+			vertical-align: super;}
+
+		.price_buy a{
+			background-color: #94b94c;
+			-webkit-border-radius:10px;
+				       -moz-border-radius:10px;
+				         -o-border-radius:10px;
+				            border-radius:10px;
+			color:white;
+			float:left;
+			font-size:24px;
+			height:30px;
+			margin:40px 0 0 60px;
+			padding:10px;
+			text-align: center;
+			text-transform: none;
+			width:80px;}
+
+
+			.price_buy a:hover{
+				background-color: purple;}
+
+		.nextsteps img{
+			margin: -20px 0 0 -8px;
+			width:350px;}
+
+
+	.asseen{
+	height:100px;
+	background: url('asseenin.jpg') center no-repeat;
+	background-size: cover;}
