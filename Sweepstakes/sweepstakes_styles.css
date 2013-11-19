@@ -1,0 +1,126 @@
+/*Main Body Styles*/
+body{
+	background-color:#282828;
+	background: url('background-image.png');
+	color:white;
+	font-family: proxima-nova, helvetica, sans-serif;
+	margin: 0;
+	overflow-x:hidden;}
+
+a{
+color:#94b94c;
+text-decoration: underline;}
+
+.transpanel h3, li, #email, .transfooter{
+font-family: Georgia, serif;
+font-size: 16px;}
+
+.top-logos{
+height:110px;
+margin-left: 150px;}
+
+img{
+float:left;
+margin:30px 90px 0 0;}
+
+	#plated{
+	margin-top: 15px;}
+
+	#blueprint{
+	margin-top: 40px;}
+
+.transheader,.transfooter,.transpanel{
+background: rgb(0,0,0); 
+background: rgba(0, 0, 0, .7);}
+
+.transheader, .transfooter{
+height:120px;
+width:100%;}
+
+	.transheader h1{
+	color:white;
+	font-size: 45px;
+	font-weight: bold;
+	padding-top:20px;
+	text-align: center;
+	text-transform: uppercase;
+	text-shadow: 0 1px 0 black;}
+
+	.transheader h3{
+	font-family: Georgia, serif;
+	font-size:20px;
+	margin-top: 10px;
+	text-align: center;}
+
+.grid{
+margin:30px 120px 30px 150px;
+height:650px;}
+
+.transpanel{
+height:300px;
+width:450px;
+float:left;
+margin:0 80px 30px 0;}
+
+
+	.goods h2{
+	color:#94b94c;
+	font-size: 23px;
+	font-weight: bold;
+	margin-top:25px;
+	text-align: center;}
+
+
+		.goods h3{
+		margin:16px 30px 0 30px;}
+
+		.info h3{
+		line-height: 22px;
+		margin: 30px 30px 0 30px;}
+
+ul{
+ list-style-type: disc;}
+
+	li{
+	margin:10px 30px 10px 30px;}
+
+.enter{
+height:150px;
+background-color: #94b94c;}
+
+
+label{
+display: block;
+font-size: 23px;
+font-weight: bold;
+margin:30px 0 10px 130px;
+text-transform: uppercase;}
+
+
+#email{
+border-radius: 10px;
+font-size: 23px;
+height:60px;
+margin-left: 35px;
+padding-left: 10px;
+width:345px;}
+
+#email_submit{
+background-image:url('submit_btn.png');
+border: none;
+cursor: pointer;
+height:50px;
+vertical-align: -10px;
+width:50px;}
+
+	.transfooter h3{
+	margin:0 150px 20px 150px;
+	padding-top: 20px;}
+
+	.transfooter a{
+	color:white;}
+
+
+
+
+

@@ -1,0 +1,10 @@
+/*Main Body Styles*/
+body{
+	background-color:#fff;
+	color:#444;
+	font-family: proxima-nova, helvetica, sans-serif;
+	margin: 0;
+	overflow-x:hidden;}
+
+a{
+	text-decoration: none;}
